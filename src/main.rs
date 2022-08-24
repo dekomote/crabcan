@@ -1,6 +1,7 @@
 mod cli;
 mod errors;
 use log;
+mod ipcs;
 use std::process::exit;
 mod config;
 mod container;
