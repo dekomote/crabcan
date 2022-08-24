@@ -6,6 +6,9 @@ use std::process::exit;
 // Contains all possible errors in our tool
 pub enum Errcode {
     InvalidArgument(&'static str),
+    UnsuportedVersion(u8),
+    ContainerError(u8),
+    NotSupported(u8)
 }
 
 #[allow(unreachable_patterns)]

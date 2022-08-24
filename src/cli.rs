@@ -17,7 +17,7 @@ pub struct Args {
 
     // User ID that will be used inside the container
     #[structopt(short, long)]
-    pub uid: i32,
+    pub uid: u32,
 
     // Mount point for the root of the container
     #[structopt(parse(from_os_str), short = "m", long = "mount")]
