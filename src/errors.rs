@@ -9,7 +9,8 @@ pub enum Errcode {
     UnsuportedVersion(u8),
     ContainerError(u8),
     NotSupported(u8),
-    SocketError(u8)
+    SocketError(u8),
+    ChildProcessError(u8),
 }
 
 #[allow(unreachable_patterns)]

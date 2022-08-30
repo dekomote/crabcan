@@ -1,4 +1,5 @@
 mod cli;
+mod child;
 mod errors;
 use log;
 mod ipcs;
